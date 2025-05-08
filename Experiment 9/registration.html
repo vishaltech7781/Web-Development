@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#e6f7ff">
+    <h2>Registration Form</h2>
+    <fieldset bgcolor="#ffffcc">
+    <form action="reg.html">
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br><hr>
+        
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" required placeholder="enter your Email"><br><br><hr>
+        
+        <label for="mobile"><b>Mobile No:</b></label>
+        <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number"><br><br><hr>
+        
+        <label><b>Gender:</b></label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other<br><br><hr>
+        
+        <label for="address"><b>Address:</b></label><br>
+        <textarea id="address" name="address" rows="4" cols="30" required placeholder="Enter your Address"></textarea><br><br><hr>
+        
+        <label for="qualification"><b>Qualification:</b></label>
+        <select id="qualification" name="qualification" required>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="B.Sc">10th</option>
+            <option value="M.Sc">12th</option>
+            <option value="Diploma">Diploma</option>
+        </select><br><br><hr>
+        
+        <label><b>Programming Skills:</b></label><br>
+        <input type="checkbox" name="skills" value="C"> C
+        <input type="checkbox" name="skills" value="C++"> C++
+        <input type="checkbox" name="skills" value="Java"> Java
+        <input type="checkbox" name="skills" value="Python"> Python
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br><br><hr>
+        
+        <label for="college"><b>College Name:</b></label>
+        <select id="college" name="college" required>
+            <option value="College A">DYP </option>
+            <option value="College B">KIT</option>
+            <option value="College C">RIT</option>
+            <option value="College D">IIT</option>
+        </select><br><br><hr>
+        
+        <input type="submit" value="Submit">
+    </form>
+</fieldset>
+</body>
+</html>
