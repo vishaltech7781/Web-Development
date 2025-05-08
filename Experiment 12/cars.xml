@@ -1,0 +1,33 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cars.xsl"?>
+
+<cars>
+    <car>
+        <name>Model S</name>
+        <manufacturer>Tesla</manufacturer>
+        <year>2020</year>
+        <price>79999</price>
+    </car>
+
+    <car>
+        <name>Mustang</name>
+        <manufacturer>Ford</manufacturer>
+        <year>2021</year>
+        <price>55999</price>
+    </car>
+
+    <car>
+        <name>Civic</name>
+        <manufacturer>Honda</manufacturer>
+        <year>2022</year>
+        <price>24999</price>
+    </car>
+
+    <car>
+        <name>Camry</name>
+        <manufacturer>Toyota</manufacturer>
+        <year>2022</year>
+        <price>28999</price>
+    </car>
+</cars>
